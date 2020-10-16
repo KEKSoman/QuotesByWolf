@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0846A725399EDC0058438B /* Unknown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F0846A625399EDC0058438B /* Unknown.jpg */; };
 		3FABD1592539641400293C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABD1582539641400293C20 /* AppDelegate.swift */; };
 		3FABD15B2539641400293C20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABD15A2539641400293C20 /* SceneDelegate.swift */; };
 		3FABD15D2539641400293C20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABD15C2539641400293C20 /* ViewController.swift */; };
 		3FABD1602539641400293C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FABD15E2539641400293C20 /* Main.storyboard */; };
 		3FABD1622539641500293C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FABD1612539641500293C20 /* Assets.xcassets */; };
 		3FABD1652539641500293C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FABD1632539641500293C20 /* LaunchScreen.storyboard */; };
+		3FABD1722539667300293C20 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FABD1712539667300293C20 /* Quotes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0846A625399EDC0058438B /* Unknown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Unknown.jpg; path = icons/Unknown.jpg; sourceTree = "<group>"; };
 		3FABD1552539641400293C20 /* QuotesByWolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuotesByWolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FABD1582539641400293C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FABD15A2539641400293C20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		3FABD1612539641500293C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FABD1642539641500293C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FABD1662539641500293C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FABD1712539667300293C20 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				3FABD1582539641400293C20 /* AppDelegate.swift */,
 				3FABD15A2539641400293C20 /* SceneDelegate.swift */,
 				3FABD15C2539641400293C20 /* ViewController.swift */,
+				3FABD1712539667300293C20 /* Quotes.swift */,
 				3FABD15E2539641400293C20 /* Main.storyboard */,
 				3FABD1612539641500293C20 /* Assets.xcassets */,
 				3FABD1632539641500293C20 /* LaunchScreen.storyboard */,
 				3FABD1662539641500293C20 /* Info.plist */,
+				3F0846A625399EDC0058438B /* Unknown.jpg */,
 			);
 			path = QuotesByWolf;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				3FABD1652539641500293C20 /* LaunchScreen.storyboard in Resources */,
 				3FABD1622539641500293C20 /* Assets.xcassets in Resources */,
+				3F0846A725399EDC0058438B /* Unknown.jpg in Resources */,
 				3FABD1602539641400293C20 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FABD1722539667300293C20 /* Quotes.swift in Sources */,
 				3FABD15D2539641400293C20 /* ViewController.swift in Sources */,
 				3FABD1592539641400293C20 /* AppDelegate.swift in Sources */,
 				3FABD15B2539641400293C20 /* SceneDelegate.swift in Sources */,
@@ -289,14 +297,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K2X24D7W7;
 				INFOPLIST_FILE = QuotesByWolf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KolesnikovEvgeny.QuotesByWolf;
+				PRODUCT_BUNDLE_IDENTIFIER = "kolesnikovevgeny.quotesbywolf--explicit-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,14 +317,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9K2X24D7W7;
 				INFOPLIST_FILE = QuotesByWolf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KolesnikovEvgeny.QuotesByWolf;
+				PRODUCT_BUNDLE_IDENTIFIER = "kolesnikovevgeny.quotesbywolf--explicit-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
