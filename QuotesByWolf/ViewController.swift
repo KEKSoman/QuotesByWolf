@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBAction func actionButton(_ sender: UIButton) {
         fetchImage()
         currentQuote()
+        
     }
     
     private func fetchImage(){
@@ -40,6 +41,7 @@ class ViewController: UIViewController {
         let utterance = AVSpeechUtterance(string: messageLabel.text!)
         utterance.voice = AVSpeechSynthesisVoice(language: "ru-RU")
         synthesizer.speak(utterance)
+        
     }
 }
 
